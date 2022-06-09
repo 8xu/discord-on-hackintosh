@@ -10,3 +10,4 @@ Well, it's probably because [MKL](https://en.wikipedia.org/wiki/Math_Kernel_Libr
   After that you need to open `/Applications/Discord.app/Contents/Info.plist` with a text editor, find *CFBundleExecutable* and modify it's value to `discord_`
  
   After all of this, hopefully Discord stops crashing! 🥲
+You can also try [this](https://github.com/Pavo-IM/amd_hackintosh_discord_fix)
