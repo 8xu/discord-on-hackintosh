@@ -1,7 +1,5 @@
 # Is [Discord](https://discord.com) crashing on your AMD Hackintosh?
 
-## There is a better way to do it! [here](https://github.com/mikigal/ryzen-hackintosh/blob/master/Resources/ryzen_patch.sh)
-
 Well, it's probably because [MKL](https://en.wikipedia.org/wiki/Math_Kernel_Library), in MacOS however, when a program tries to use some of the "Intel functions" of the MKL, if the program doesn't properly catch the exception then it just outright crashes. Now you know why so many programs have issues on AMD Hackintoshes: the MKL is used all over the place! This is the basis for issues using a plethora of apps out there including Adobe and Matlab on a Hackintosh.
 
 ## How do you fix the crashes?
